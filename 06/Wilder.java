@@ -10,11 +10,6 @@ public class Wilder {
         this.aware = aware;
     }
 
-    // static method
-    public static String quack() {
-        return "Quack!";
-    }
-
     // instance method
     public String whoAmI() {
         if ( this.aware) {
